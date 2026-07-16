@@ -1,0 +1,30 @@
+{
+	"name": "project",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "vite dev --open",
+		"build": "vite build",
+		"preview": "vite preview --open",
+		"gdoc": "node archieml/fetch-google.js"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^5.0.3",
+		"svelte": "^5.25.3",
+		"vite": "^6.4.1",
+		"vite-plugin-externals": "^0.6.2"
+	},
+	"dependencies": {
+		"@rollup/plugin-dsv": "^3.0.5",
+		"@sveltejs/svelte-scroller": "^2.0.7",
+		"archieml": "^0.5.0",
+		"d3": "^7.9.0",
+		"install": "^0.13.0",
+		"layercake": "^8.4.3",
+		"maplibre-gl": "^5.2.0",
+		"topojson-client": "^3.1.0",
+		"vite-plugin-css-injected-by-js": "^3.5.2",
+		"vite-plugin-svgstring": "^1.0.0"
+	}
+}
